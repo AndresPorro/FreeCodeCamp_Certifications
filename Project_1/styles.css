@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+#playing-cards{
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background: white;
+  background: white;
+}
+
+.card{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 200px;
+  background: whitesmoke;
+}
+
+.left{ 
+  align-self: flex-start;
+  margin: 10px;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.middle{ 
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.right{
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row-reverse;
+  margin: 10px;
+}
