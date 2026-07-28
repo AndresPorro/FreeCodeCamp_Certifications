@@ -1,15 +1,25 @@
-body{
+html {
   display: flex;
   justify-content: center;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  min-width: 70vw;
+  padding: 5rem;
+}
+
 #playing-cards{
-display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background: white;
   background: white;
 }
 
@@ -19,27 +29,46 @@ display: flex;
   justify-content: space-between;
   border: 1px solid black;
   border-radius: 10px;
-  width: 100px;
-  height: 200px;
+  width: 15rem;
+  height: 25rem;
+  padding: 0.6rem;
   background: whitesmoke;
 }
 
 .left{ 
   align-self: flex-start;
-  margin: 10px;
   align-items: flex-start;
   flex-direction: row;
+  font-size: 3rem;
 }
 
 .middle{ 
   display: flex;
-  flex-direction: column;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
 
 .right{
   display: flex;
-  align-self: flex-end;
+  align-items: flex-end;
   flex-direction: row-reverse;
-  margin: 10px;
+  font-size: 3rem;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 1px black;
+  cursor: default;
+}
+
+@media (max-width: 540px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 720px) {
+  html {
+    font-size: 75%;
+  }
 }
