@@ -16,17 +16,18 @@ tr[class="in-progress"] {
 
 tr[class="to-read"] span[class="status"] {
   border: 1px solid #ff7f7f;
-  background-image: linear-gradient(to bottom, #ff7f7f, #ffb3b3);
+  background-image: linear-gradient(to bottom, #d84646, #cf2020);
 }
 
 tr[class="read"] span[class="status"] {
   border: 1px solid #7fff7f;
-  background-image: linear-gradient(to bottom, #7fff7f, #bfffbf);
+  background-image: linear-gradient(to bottom, #7fff7f, #22b622);
+  
 }
 
 tr[class="in-progress"] span[class="status"] {
   border: 1px solid #ffe67f;
-  background-image: linear-gradient(to bottom, #ffe67f, #fff4b3);
+  background-image: linear-gradient(to bottom, #fffb00, #fff564);
 }
 
 span[class="status"], span[class^="rate"] {
@@ -54,4 +55,36 @@ span[class~="two"] > span:nth-child(2) {
 
 span[class~="three"] > span {
   background-image: linear-gradient(to bottom, gold, white);
+}
+
+td {
+  padding: 0 1rem;
+}
+
+* {
+  text-align: center;
+}
+
+tr * {
+    padding: 0.5rem;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  background-color: rgba(214, 212, 212, 1);
+}
+
+table{
+  box-shadow: 0 0 15px 3px gray;
+}
+
+h1 {
+  margin: 2rem;
+  width: 14rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  background-color: rgba(214, 212, 212, 1);
 }
