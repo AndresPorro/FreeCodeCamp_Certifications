@@ -1,0 +1,57 @@
+span {
+  display: inline-block;
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(to right, #bfffbf, #7fff7f);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to right, #ffb3b3, #ff7f7f);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to right, #fff4b3, #ffe67f);
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 1px solid #ff7f7f;
+  background-image: linear-gradient(to bottom, #ff7f7f, #ffb3b3);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 1px solid #7fff7f;
+  background-image: linear-gradient(to bottom, #7fff7f, #bfffbf);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 1px solid #ffe67f;
+  background-image: linear-gradient(to bottom, #ffe67f, #fff4b3);
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 20px;
+  width: 100px;
+  padding: 5px;
+}
+
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 1px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+}
+
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(to bottom, gold, white);
+}
+
+span[class~="two"] > span:nth-child(2) {
+  background-image: linear-gradient(to bottom, gold, white);
+}
+
+span[class~="three"] > span {
+  background-image: linear-gradient(to bottom, gold, white);
+}
