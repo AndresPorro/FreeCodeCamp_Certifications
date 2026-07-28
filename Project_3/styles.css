@@ -1,9 +1,19 @@
+:root{
+    --border-color: black;
+    --background-color: whitesmoke;
+}
+
 body {
     display: flex;
     gap: 2rem;
     flex-direction: column;
     width: 80vw;
     margin: auto;
+}
+
+.product{
+    background-color: var(--background-color);
+
 }
 
 #Title-Nav {
@@ -19,7 +29,7 @@ body {
     padding: 0.4rem 0.8rem;
     transition: all 0.3s ease-in-out;
     display: inline-block;
-    border: 1px solid black
+    border: 1px solid var(--border-color)
 }
 
 .nav-link:hover {
@@ -31,12 +41,12 @@ body {
 h2 {
     text-align: center;
     margin-top: 2rem;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--border-color);
     padding-top: 1rem;
 }
 
 .up_button {
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
@@ -51,7 +61,7 @@ h2 {
 .up_button a {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid var(--border-color);
 }
 
 @media (max-width: 540px){
