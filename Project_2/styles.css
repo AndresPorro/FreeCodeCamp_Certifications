@@ -49,7 +49,7 @@ span[class~="one"] > span:first-child {
   background-image: linear-gradient(to bottom, gold, white);
 }
 
-span[class~="two"] > span:nth-child(2) {
+span[class~="two"] > span:nth-child(-n + 2) {
   background-image: linear-gradient(to bottom, gold, white);
 }
 
