@@ -5,20 +5,29 @@
 
 body {
     display: flex;
-    gap: 2rem;
     flex-direction: column;
+    gap: 2rem;
     width: 80vw;
-    margin: auto;
+    margin: 10rem auto;
 }
 
-.product{
+.statik_div {
+    width: 90%;
+    position: fixed;
+    top: 0;
+    left: 2rem;
+    padding: 1rem;
     background-color: var(--background-color);
-
+    display: flex;
+    justify-content: center;
 }
 
-#Title-Nav {
-    text-align: center;
-    margin: 2rem;
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .nav-link {
@@ -32,15 +41,18 @@ body {
     border: 1px solid var(--border-color)
 }
 
+#up {
+    text-align: center;
+}
+
 .nav-link:hover {
     transform: scale(1.2);
     background-color: cyan;
     box-shadow: 0 0 10px 3px cyan;
 }
 
-h2 {
+.sub-title {
     text-align: center;
-    margin-top: 2rem;
     border-top: 1px solid var(--border-color);
     padding-top: 1rem;
 }
