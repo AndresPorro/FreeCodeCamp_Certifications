@@ -1,4 +1,10 @@
-FreeCodeCamp_Certifications: 
+# Proyectos Web de freeCodeCamp
 
-Aquí se encuentran listadas las tareas relevantes que realice al completar la certificacion de Desarrollador Web de freeCodeCamp.
-Dentro de cada proyecto se encuentran 2 archivos, un .html y su respectivo .css.
+Proyectos realizados para la certificación Responsive Web Design de freeCodeCamp, utilizando HTML y CSS.
+
+| Proyecto | Descripción |
+|---|---|
+| [Proyecto_1](./Proyecto_1) | Playing Cards |
+| [Proyecto_2](./Proyecto_2) | Book Inventory |
+| [Proyecto_3](./Proyecto_3) | Technical Documentation Page |
+| [Proyecto_4](./Proyecto_4) | Original Trombones |
